@@ -31,7 +31,7 @@ Modern, minimal, and responsive developer portfolio built with **React** and **V
   - Developing the application's user interface and layout for the Sonnet project.
   - Organizing the interface into modular sections to support future sonar imagery visualization and detection-result presentation.
   - Designing a clear, user-friendly workflow for interacting with the system.
-  - Collaborating with Team Synora to align the UI with the Python and YOLOv11-based detection pipeline.
+  - Collaborating with Team Sonnet to align the UI with the Python and YOLOv11-based detection pipeline.
   - Preparing the interface for future integration with the project's AI detection and backend components.
 - **Repository:** [https://github.com/saburikatkar/Sonnet](https://github.com/saburikatkar/Sonnet)
 
