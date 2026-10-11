@@ -15,7 +15,7 @@ Modern, minimal, and responsive developer portfolio built with **React** and **V
 - **College:** Dhole Patil College of Engineering (DPCOE), Pune
 - **GitHub:** [https://github.com/saburikatkar](https://github.com/saburikatkar)
 - **LinkedIn:** [https://www.linkedin.com/in/saburi-katkar-b83b32384](https://www.linkedin.com/in/saburi-katkar-b83b32384)
-- **Email:** `saburikatkar031@gmail.com` *(Editable in `src/data/portfolioData.js`)*
+- **Email:** `saburikatkar031@gmail.com`
 
 ---
 
