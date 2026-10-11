@@ -1,26 +1,18 @@
 import React from 'react';
 import Navbar from './components/Navbar';
-import Hero from './components/Hero';
-import About from './components/About';
-import Skills from './components/Skills';
-import Projects from './components/Projects';
-import Experience from './components/Experience';
-import EducationAndAchievements from './components/EducationAndAchievements';
-import Contact from './components/Contact';
+import PosterHero from './components/PosterHero';
+import EditorialBio from './components/EditorialBio';
+import ContentShowcase from './components/ContentShowcase';
 import Footer from './components/Footer';
 
 export default function App() {
   return (
-    <div className="portfolio-app">
+    <div className="editorial-portfolio-app">
       <Navbar />
       <main id="main-content">
-        <Hero />
-        <About />
-        <Skills />
-        <Projects />
-        <Experience />
-        <EducationAndAchievements />
-        <Contact />
+        <PosterHero />
+        <EditorialBio />
+        <ContentShowcase />
       </main>
       <Footer />
     </div>
