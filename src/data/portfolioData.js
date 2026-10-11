@@ -10,7 +10,6 @@ export const personalDetails = {
   role: "Computer Science Engineering Student",
   college: "Dhole Patil College of Engineering (DPCOE)",
   location: "Pune, Maharashtra, India",
-  email: "saburikatkar031@gmail.com",
   github: "https://github.com/saburikatkar",
   linkedin: "https://www.linkedin.com/in/saburi-katkar-b83b32384",
   resumeUrl: "#contact",
