@@ -24,7 +24,7 @@ Modern, minimal, and responsive developer portfolio built with **React** and **V
 
 ### 1. Sonnet — SIH26057 *(Smart India Hackathon 2026)*
 - **Title:** AI-Powered Automated Underwater Marine Debris and Anomaly Detection
-- **Team:** Team Synora
+- **Team:** Team Sonnet
 - **Project Description:** An AI-powered system designed to identify underwater marine debris and anomalies using Side-Scan Sonar (SSS) imagery for the Smart India Hackathon 2026.
 - **Technologies Used:** Python, YOLOv11, Computer Vision, Side-Scan Sonar Imagery
 - **My Contribution — UI Developer (U1):**
