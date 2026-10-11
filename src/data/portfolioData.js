@@ -66,7 +66,7 @@ export const skillsData = {
  */
 export const projectsData = [
   {
-    id: "sonnet-sih26057",
+    id: "SONNET-SIH26057",
     title: "AI-Powered Automated Underwater Marine Debris and Anomaly Detection",
     subtitle: "Side-Scan Sonar (SSS) Imagery Analysis — Smart India Hackathon 2026",
     team: "Team Synora",
@@ -162,12 +162,12 @@ export const educationData = [
  */
 export const achievementsData = [
   {
-    id: "sih-2026",
+    id: "SIH-2026",
     title: "Smart India Hackathon 2026 Participant — SIH26057",
     category: "Hackathon & Innovation",
     organization: "Ministry of Education / AICTE",
-    team: "Team Synora",
-    description: "Selected participant working on AI-powered underwater marine debris and anomaly detection using side-scan sonar imagery.",
+    team: "Team SONNET",
+    description: "working on AI-powered underwater marine debris and anomaly detection using side-scan sonar imagery.",
     badge: "SIH 2026"
   },
   {
