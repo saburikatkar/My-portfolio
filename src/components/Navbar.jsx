@@ -33,7 +33,7 @@ export default function Navbar() {
           </div>
         </a>
 
-        {/* Desktop and Mobile Menu */}
+        {/* Navigation Menu */}
         <ul className={`nav-menu ${mobileMenuOpen ? 'mobile-open' : ''}`}>
           {navLinks.map((link) => (
             <li key={link.label}>
@@ -46,7 +46,8 @@ export default function Navbar() {
               </a>
             </li>
           ))}
-          <li className="mobile-only-btn">
+          {/* Mobile only CTA inside the mobile menu drawer */}
+          <li className="nav-mobile-cta">
             <a 
               href="#contact" 
               className="btn btn-primary btn-sm"
@@ -58,7 +59,7 @@ export default function Navbar() {
         </ul>
 
         <div className="nav-actions">
-          <a href="#contact" className="btn btn-primary btn-sm desktop-only">
+          <a href="#contact" className="btn btn-primary btn-sm nav-desktop-cta">
             Get in Touch
           </a>
           <button 

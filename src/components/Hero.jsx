@@ -1,6 +1,6 @@
 import React from 'react';
 import { personalDetails } from '../data/portfolioData';
-import { IconGithub, IconLinkedin, IconMail, IconExternalLink } from './Icons';
+import { IconGithub, IconLinkedin, IconMail } from './Icons';
 
 export default function Hero() {
   return (
@@ -10,7 +10,7 @@ export default function Hero() {
           
           <div className="hero-tag">
             <span className="hero-dot"></span>
-            <span>{personalDetails.college} • Computer Science</span>
+            <span>{personalDetails.college} • Computer Science (2025–2029)</span>
           </div>
 
           <h1 className="hero-title">
@@ -18,12 +18,12 @@ export default function Hero() {
           </h1>
 
           <p className="hero-subtitle">
-            {personalDetails.role} passionate about building intuitive user interfaces, 
-            modern desktop applications with <strong>Electron + React</strong>, and solving real-world engineering challenges.
+            {personalDetails.role} passionate about front-end architecture, building intuitive user interfaces, 
+            and solving real-world engineering problems through collaboration and hands-on learning.
           </p>
 
           <div className="hero-context">
-            Currently developing the client shell for <strong>Team Synora</strong>'s Smart India Hackathon project (SIH26057) and continuously growing through hands-on development.
+            Currently developing the UI structure for <strong>Team Synora</strong>'s Smart India Hackathon project (SIH26057) and continuously building practical software projects.
           </div>
 
           <div className="hero-buttons">

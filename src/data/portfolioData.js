@@ -1,8 +1,8 @@
 /**
  * Portfolio Data Configuration for Saburi Katkar
  * ===============================================
- * All personal details, project details, and links are centralized here.
- * Incomplete or future details are clearly marked with [EDITABLE] tags.
+ * Centralized data source for personal details, projects, experience,
+ * education, skills, and contact links.
  */
 
 export const personalDetails = {
@@ -10,60 +10,54 @@ export const personalDetails = {
   role: "Computer Science Engineering Student",
   college: "Dhole Patil College of Engineering (DPCOE)",
   location: "Pune, Maharashtra, India",
-  
-  // EDITABLE: Your email address (editable at any time)
   email: "saburikatkar031@gmail.com",
-  
-  // Profiles
   github: "https://github.com/saburikatkar",
   linkedin: "https://www.linkedin.com/in/saburi-katkar-b83b32384",
-  
-  // EDITABLE: Add a resume link (e.g. Google Drive link or file in /public/resume.pdf)
   resumeUrl: "#contact",
 
-  bioShort: "Computer Science Engineering student at DPCOE passionate about front-end architecture, building desktop and web applications with React & Vite, and tackling real-world problems through collaborative hackathons and hands-on learning.",
+  bioShort: "Computer Science Engineering student at DPCOE passionate about front-end architecture, user interface design, and tackling real-world engineering problems through collaborative hackathons and hands-on learning.",
   
   bioLong: [
-    "I am an undergraduate Computer Science Engineering student at Dhole Patil College of Engineering (DPCOE), Pune. I enjoy translating ideas into clean, responsive user interfaces and modular software architectures.",
-    "Currently, I am working with Team Synora on our Smart India Hackathon project (SIH26057), developing the core desktop application shell using Electron, React, and Vite. I also built Virtual Gurukul to digitize traditional Indian knowledge through an interactive web experience.",
-    "Beyond coding, I've served as a Robotics Teaching Intern at ZPPS, where I strengthened my communication, mentoring, and team collaboration skills by making technical robotics concepts accessible and exciting for students."
+    "I am an undergraduate Computer Science Engineering student at Dhole Patil College of Engineering (DPCOE), Pune (2025–2029). I enjoy translating ideas into clean, responsive user interfaces and modular software architectures.",
+    "Currently, I am working with Team Synora on our Smart India Hackathon project (SIH26057), developing the user interface structure for our automated underwater sonar anomaly detection system. I also built Virtual Gurukul to digitize traditional Indian learning topics through an interactive web experience.",
+    "Beyond coding, I have served as a Robotics Teaching Intern at ZPPS, where I strengthened my communication, mentoring, and team collaboration skills by making technical robotics concepts accessible and engaging for students."
   ],
 
   stats: [
     { label: "Institution", value: "DPCOE, Pune" },
-    { label: "Focus", value: "CS Engineering" },
-    { label: "Hackathon", value: "SIH 2026 (Synora)" },
-    { label: "Mentorship", value: "Robotics Intern (ZPPS)" }
+    { label: "Degree Period", value: "2025–2029" },
+    { label: "Hackathon", value: "SIH 2026 (Team Synora)" },
+    { label: "Experience", value: "Robotics Teaching Intern (ZPPS)" }
   ]
 };
 
 export const skillsData = {
   frontendAndDesktop: [
-    { name: "React.js", level: "Core Framework" },
-    { name: "Electron", level: "Desktop Apps" },
+    { name: "React.js", level: "UI Library" },
+    { name: "JavaScript (ES6+)", level: "Core Language" },
     { name: "Vite", level: "Build Tooling" },
-    { name: "JavaScript (ES6+)", level: "Language" },
     { name: "HTML5 & CSS3", level: "Semantic & Responsive" },
-    { name: "Modern CSS / UI", level: "Flexbox, Grid, Clean UI" }
+    { name: "UI Architecture", level: "Component Design" },
+    { name: "Modern CSS", level: "Flexbox, Grid, Layouts" }
   ],
   programmingAndBackend: [
-    { name: "JavaScript", level: "Primary" },
+    { name: "JavaScript", level: "Web Development" },
     { name: "Python", level: "Foundations & Scripting" },
-    { name: "C / C++", level: "CS Core [Editable]" },
-    { name: "Node.js Basics", level: "Environment" }
+    { name: "C / C++", level: "Computer Science Core" },
+    { name: "Node.js Basics", level: "Runtime Environment" }
   ],
   toolsAndPlatforms: [
     { name: "Git", level: "Version Control" },
-    { name: "GitHub", level: "Collaboration & CI/CD" },
-    { name: "VS Code", level: "Development IDE" },
+    { name: "GitHub", level: "Collaboration & Repositories" },
+    { name: "VS Code", level: "Development Environment" },
     { name: "npm", level: "Package Management" },
-    { name: "Web Audio API", level: "Interactive Audio" }
+    { name: "Web Audio API", level: "Audio Synthesis" }
   ],
   softSkills: [
-    { name: "Technical Communication", level: "Teaching & Documentation" },
+    { name: "Technical Communication", level: "Instruction & Documentation" },
     { name: "Teamwork & Collaboration", level: "Team Synora / Hackathons" },
     { name: "Hands-on Mentoring", level: "Robotics at ZPPS" },
-    { name: "Analytical Problem Solving", level: "Engineering Foundation" }
+    { name: "Problem Solving", level: "Engineering Method" }
   ]
 };
 
@@ -74,21 +68,30 @@ export const skillsData = {
 export const projectsData = [
   {
     id: "sonnet-sih26057",
-    title: "Sonnet — SIH26057",
-    subtitle: "AI-Powered Automated Underwater Marine Debris and Anomaly Detection using Side-Scan Sonar Imagery",
+    title: "AI-Powered Automated Underwater Marine Debris and Anomaly Detection",
+    subtitle: "Side-Scan Sonar (SSS) Imagery Analysis — Smart India Hackathon 2026",
     team: "Team Synora",
-    statusBadge: "Ongoing Project • SIH 2026",
-    statusType: "ongoing", // 'ongoing' | 'completed'
-    overview: "An automated system aimed at detecting underwater marine debris and sonar anomalies using side-scan sonar (SSS) imagery, developed for the Smart India Hackathon.",
-    contribution: "Developing the basic Electron + React + Vite application shell, establishing the desktop window management, contract testing setup, and responsive UI layout.",
-    realisticNotice: "Ongoing Project: Actively developing the frontend desktop shell with Team Synora. AI detection pipeline, model inference, and backend integration are handled across specialized sub-teams and remain in continuous development.",
-    technologies: ["Electron", "React", "Vite", "JavaScript"],
-    githubUrl: "https://github.com/saburikatkar/Sonnet", // Editable repository URL
-    liveUrl: null, // Desktop application
+    statusBadge: "SIH 2026 (SIH26057)",
+    statusType: "ongoing",
+    overview: "An AI-powered system designed to identify underwater marine debris and anomalies using Side-Scan Sonar (SSS) imagery for the Smart India Hackathon 2026.",
+    contributionTitle: "My Contribution — UI Developer (U1)",
+    contribution: "As U1 in Team Synora, I am responsible for developing the user interface for the Sonnet project. My work focuses on creating the application's UI structure and a clear, responsive interface that will support the underwater sonar analysis workflow.",
+    realisticNotice: "Project Status & Scope: Currently in active development with Team Synora for SIH 2026. The UI structure and foundational layouts are being built; AI detection pipeline, model inference, and backend integrations are actively handled by teammate sub-teams and are planned for upcoming integration phases.",
+    // Strictly the AI and detection system technologies as specified:
+    technologies: [
+      "Python",
+      "YOLOv11",
+      "Computer Vision",
+      "Side-Scan Sonar Imagery"
+    ],
+    githubUrl: "https://github.com/saburikatkar/Sonnet",
+    liveUrl: null,
     highlights: [
-      "Crafted the lightweight Electron + React application shell using Vite",
-      "Modular UI structure prepared for real-time sonar feeds and map layers",
-      "Cross-functional collaboration with Team Synora teammates"
+      "Developing the application's user interface and layout for the Sonnet project.",
+      "Organizing the interface into modular sections to support future sonar imagery visualization and detection-result presentation.",
+      "Designing a clear, user-friendly workflow for interacting with the system.",
+      "Collaborating with Team Synora to align the UI with the Python and YOLOv11-based detection pipeline.",
+      "Preparing the interface for future integration with the project's AI detection and backend components."
     ]
   },
   {
@@ -99,11 +102,11 @@ export const projectsData = [
     statusBadge: "Interactive Platform",
     statusType: "completed",
     overview: "An educational web project focused on presenting traditional learning topics such as Vedic mathematics, yoga, astronomy, and Sanskrit through a modern, engaging digital learning experience.",
+    contributionTitle: "My Contribution",
     contribution: "Designed and built the interactive web interface, course modules, synthesizer audio elements, and content presentation logic.",
     realisticNotice: null,
-    // Technologies actually present in repository + editable placeholders
-    technologies: ["JavaScript", "HTML5", "CSS3", "Web Audio API", "Interactive DOM"],
-    githubUrl: "https://github.com/saburikatkar/Virtual-Gurukul", // Repository URL
+    technologies: ["JavaScript", "HTML5", "CSS3", "Web Audio API"],
+    githubUrl: "https://github.com/saburikatkar/Virtual-Gurukul",
     liveUrl: null,
     highlights: [
       "Modular lesson views for Vedic mathematics, yoga, astronomy, and Sanskrit",
@@ -121,10 +124,8 @@ export const experienceData = [
     id: "zpps-robotics",
     role: "Robotics Teaching Intern",
     organization: "ZPPS",
-    // EDITABLE: Add your exact internship dates/period below
-    duration: "Teaching Internship [Editable: e.g., Jun 2024 – Jul 2024]",
-    location: "Maharashtra, India [Editable]",
-    type: "Internship",
+    location: "Maharashtra, India",
+    type: "Teaching Internship",
     description: "Assisted in teaching students basic robotics concepts through practical and engaging hands-on learning activities.",
     keyTakeaways: [
       "Hands-on STEM Education: Guided students through fundamental robotics mechanisms, hardware components, and introductory problem-solving exercises.",
@@ -143,8 +144,7 @@ export const educationData = [
     institution: "Dhole Patil College of Engineering (DPCOE)",
     location: "Pune, Maharashtra",
     degree: "Bachelor of Engineering (B.E.) in Computer Science Engineering",
-    // EDITABLE: Update with your exact graduation / academic year
-    duration: "Undergraduate [Editable: 2022 – 2026]",
+    duration: "2025–2029",
     status: "Currently Pursuing",
     coursework: [
       "Data Structures & Algorithms",
@@ -159,15 +159,16 @@ export const educationData = [
 ];
 
 /**
- * Achievements and Activities (with editable placeholders)
+ * Achievements and Activities (Only the two verified achievements)
  */
 export const achievementsData = [
   {
     id: "sih-2026",
-    title: "Smart India Hackathon 2026 Participant (SIH26057)",
+    title: "Smart India Hackathon 2026 Participant — SIH26057",
     category: "Hackathon & Innovation",
     organization: "Ministry of Education / AICTE",
-    description: "Selected participant with Team Synora working on underwater marine debris and anomaly detection using side-scan sonar technology.",
+    team: "Team Synora",
+    description: "Selected participant working on AI-powered underwater marine debris and anomaly detection using side-scan sonar imagery.",
     badge: "SIH 2026"
   },
   {
@@ -175,15 +176,7 @@ export const achievementsData = [
     title: "Robotics STEM Mentorship at ZPPS",
     category: "Teaching & Community",
     organization: "ZPPS",
-    description: "Conducted practical robotics learning sessions, mentoring students through hands-on kit assemblies and introductory engineering logic.",
+    description: "Conducted practical robotics learning sessions, guiding students through hands-on kit assembly, basic robotics concepts, and introductory engineering logic.",
     badge: "Mentorship"
-  },
-  {
-    id: "editable-achievement",
-    title: "Technical Workshops & College Activities [Editable]",
-    category: "Academic & Extracurricular",
-    organization: "DPCOE, Pune",
-    description: "Active participant in departmental technical workshops, coding forums, and collaborative engineering seminars. (Click to edit or replace with specific awards/certifications).",
-    badge: "Editable Slot"
   }
 ];

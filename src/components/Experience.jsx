@@ -1,6 +1,6 @@
 import React from 'react';
 import { experienceData } from '../data/portfolioData';
-import { IconBriefcase, IconMapPin } from './Icons';
+import { IconMapPin } from './Icons';
 
 export default function Experience() {
   return (
@@ -24,10 +24,10 @@ export default function Experience() {
                 </div>
 
                 <div className="experience-meta">
-                  <span className="badge badge-editable">
-                    {exp.duration}
+                  <span className="badge badge-blue">
+                    {exp.type}
                   </span>
-                  <span className="editable-link-hint">
+                  <span className="experience-location">
                     <IconMapPin size={13} style={{ display: 'inline', marginRight: '3px' }} />
                     {exp.location}
                   </span>

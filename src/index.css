@@ -199,12 +199,7 @@ button {
   border: 1px solid var(--status-completed-border);
 }
 
-.badge-editable {
-  background: #f3f4f6;
-  color: #4b5563;
-  border: 1px dashed #9ca3af;
-  font-size: 0.72rem;
-}
+
 
 /* Buttons */
 .btn {
@@ -364,6 +359,14 @@ button {
   display: flex;
   align-items: center;
   gap: 1rem;
+}
+
+.nav-mobile-cta {
+  display: none;
+}
+
+.nav-desktop-cta {
+  display: inline-flex;
 }
 
 .mobile-toggle {
@@ -853,10 +856,12 @@ button {
   flex-wrap: wrap;
 }
 
-.editable-link-hint {
-  font-size: 0.775rem;
+.experience-location {
+  font-size: 0.825rem;
   color: var(--text-light);
-  font-style: italic;
+  font-weight: 500;
+  display: inline-flex;
+  align-items: center;
 }
 
 /* ==========================================================================
@@ -1324,6 +1329,15 @@ button {
     padding: 1.5rem;
     gap: 1rem;
     box-shadow: var(--shadow-lg);
+  }
+
+  .nav-mobile-cta {
+    display: block;
+    margin-top: 0.5rem;
+  }
+
+  .nav-desktop-cta {
+    display: none !important;
   }
 
   .mobile-toggle {

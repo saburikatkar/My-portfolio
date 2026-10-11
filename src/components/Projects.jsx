@@ -10,7 +10,7 @@ export default function Projects() {
           <div className="section-eyebrow">Featured Work</div>
           <h2 className="section-title">Projects</h2>
           <p className="section-subtitle">
-            Hands-on engineering projects focused on desktop application architectures and digital educational experiences.
+            Engineering projects focused on automated sonar anomaly detection and digital educational platforms.
           </p>
         </div>
 
@@ -49,11 +49,11 @@ export default function Projects() {
 
                 {/* Contribution */}
                 <div className="project-section-block">
-                  <span className="project-block-label">My Contribution</span>
+                  <span className="project-block-label">{project.contributionTitle || "My Contribution"}</span>
                   <p>{project.contribution}</p>
                 </div>
 
-                {/* Important Ongoing Transparency Notice for Sonnet */}
+                {/* Status Notice */}
                 {project.realisticNotice && (
                   <div className="project-notice-box">
                     <div className="project-notice-title">
@@ -75,7 +75,7 @@ export default function Projects() {
                   </div>
                 )}
 
-                {/* Technologies */}
+                {/* Technologies Used */}
                 <div className="project-section-block">
                   <span className="project-block-label">Technologies Used</span>
                   <div className="project-tech-tags">
@@ -104,10 +104,6 @@ export default function Projects() {
                     </a>
                   )}
                 </div>
-
-                <span className="editable-link-hint">
-                  Repository link editable in src/data/portfolioData.js
-                </span>
               </div>
 
             </article>

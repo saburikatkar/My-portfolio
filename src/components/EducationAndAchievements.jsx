@@ -1,6 +1,6 @@
 import React from 'react';
 import { educationData, achievementsData } from '../data/portfolioData';
-import { IconGraduationCap, IconAward, IconBookOpen } from './Icons';
+import { IconGraduationCap, IconAward } from './Icons';
 
 export default function EducationAndAchievements() {
   return (
@@ -10,7 +10,7 @@ export default function EducationAndAchievements() {
           <div className="section-eyebrow">Academic Background</div>
           <h2 className="section-title">Education & Achievements</h2>
           <p className="section-subtitle">
-            Formal engineering education, hackathon participation, and extracurricular engagements.
+            Formal engineering education at DPCOE and verified hackathon & mentorship achievements.
           </p>
         </div>
 
@@ -27,12 +27,12 @@ export default function EducationAndAchievements() {
                 <h4 className="edu-institution">{edu.institution}</h4>
                 <div className="edu-degree">{edu.degree}</div>
                 
-                <div style={{ display: 'flex', gap: '0.5rem', marginBottom: '0.75rem', flexWrap: 'wrap' }}>
+                <div style={{ display: 'flex', gap: '0.5rem', marginBottom: '0.85rem', flexWrap: 'wrap' }}>
                   <span className="badge badge-blue">{edu.status}</span>
-                  <span className="badge badge-editable">{edu.duration}</span>
+                  <span className="badge badge-blue">{edu.duration}</span>
                 </div>
 
-                <p style={{ fontSize: '0.925rem', marginBottom: '1rem' }}>
+                <p style={{ fontSize: '0.925rem', marginBottom: '1.25rem' }}>
                   {edu.highlights}
                 </p>
 
@@ -62,11 +62,13 @@ export default function EducationAndAchievements() {
                 <div key={item.id} className="achievement-item">
                   <div className="achievement-header">
                     <h4 className="achievement-title">{item.title}</h4>
-                    <span className={`badge ${item.badge === 'Editable Slot' ? 'badge-editable' : 'badge-blue'}`}>
+                    <span className="badge badge-blue">
                       {item.badge}
                     </span>
                   </div>
-                  <div className="achievement-org">{item.organization}</div>
+                  <div className="achievement-org">
+                    {item.organization} {item.team ? `• ${item.team}` : ''}
+                  </div>
                   <p className="achievement-desc">{item.description}</p>
                 </div>
               ))}

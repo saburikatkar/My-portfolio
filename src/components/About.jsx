@@ -1,6 +1,6 @@
 import React from 'react';
 import { personalDetails } from '../data/portfolioData';
-import { IconMapPin, IconGraduationCap, IconBriefcase } from './Icons';
+import { IconMapPin, IconGraduationCap } from './Icons';
 
 export default function About() {
   return (
@@ -10,7 +10,7 @@ export default function About() {
           <div className="section-eyebrow">About Me</div>
           <h2 className="section-title">Driven by Curiosity & Hands-On Engineering</h2>
           <p className="section-subtitle">
-            Balancing strong computer science fundamentals with practical application development.
+            Balancing solid computer science foundations with practical, user-focused software development.
           </p>
         </div>
 
@@ -23,7 +23,7 @@ export default function About() {
             <div className="about-highlight-box">
               <h4>Collaborative Mindset & Growth</h4>
               <p>
-                Whether coordinating interface requirements in team hackathons or breaking down complex logic for students in robotics classrooms, I value clear communication, proactive collaboration, and continuous learning.
+                Whether coordinating user interface requirements in team hackathons or breaking down engineering logic for students in robotics classrooms, I value clear communication, proactive collaboration, and continuous learning.
               </p>
             </div>
           </div>
@@ -41,6 +41,11 @@ export default function About() {
               </div>
 
               <div className="about-info-item">
+                <span className="about-info-label">Academic Duration</span>
+                <span className="about-info-val">2025–2029 (Currently Pursuing)</span>
+              </div>
+
+              <div className="about-info-item">
                 <span className="about-info-label">College</span>
                 <span className="about-info-val">{personalDetails.college}</span>
               </div>
@@ -54,13 +59,13 @@ export default function About() {
               </div>
 
               <div className="about-info-item">
-                <span className="about-info-label">Key Focus Areas</span>
-                <span className="about-info-val">Electron Desktop Apps, React, Front-End Architecture</span>
+                <span className="about-info-label">Core Focus Areas</span>
+                <span className="about-info-val">User Interface Design, Web Technologies, Front-End Architecture</span>
               </div>
 
               <div className="about-info-item">
                 <span className="about-info-label">Status</span>
-                <span className="about-info-val">Undergraduate Student • Open to Opportunities</span>
+                <span className="about-info-val">Undergraduate Student • Open to Developer & Internship Opportunities</span>
               </div>
             </div>
           </div>
